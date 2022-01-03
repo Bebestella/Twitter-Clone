@@ -186,6 +186,19 @@ a.cancel-button {
   padding-right: 10px;
   padding-top: 32px;
 }
+@media screen and (max-width: 500px) {
+  .likes-count {
+    padding-top: 16px;
+  }
+  .like-button {
+    float: none;
+    background-color: white;
+    color: red;
+    font-size: xx-large;
+    border: none;
+    width: 68px;
+  }
+}
 .row {
   display: flex;
 }
